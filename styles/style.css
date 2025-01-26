@@ -75,19 +75,19 @@ footer{
 
 .row{
     display: flex;
-    padding: 64px 40px;
+    padding: 32px 32px;
     justify-content: center;
     align-items: center;
     align-content: center;
-    gap: 40px;
+    gap: 32px;
     flex: 1 0 0;
     align-self: stretch;
     flex-wrap: wrap;
 }
 
 .subpage{
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     border-radius: 32px;
     box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.25);
     overflow: hidden;
@@ -109,15 +109,15 @@ footer{
 }
 
 .subpage-image{
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     flex-shrink: 0;
 }
 
 .labelcontainer{
     display: flex;
     width: fit-content;
-    max-width: 400px;
+    max-width: 300px;
     padding: 16px 0px;
     justify-content: center;
     align-items: center;
