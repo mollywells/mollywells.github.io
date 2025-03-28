@@ -114,6 +114,12 @@ footer{
     flex-shrink: 0;
 }
 
+.subpage-modelbox{
+    width: 800px;
+    height: 600px;
+    flex-shrink: 0;
+}
+
 .labelcontainer{
     display: flex;
     width: fit-content;
