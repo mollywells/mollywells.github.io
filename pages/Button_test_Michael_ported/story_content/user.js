@@ -8,11 +8,12 @@ var getVar = player.GetVar;
 window.Script1 = function()
 {
   var xhr = new XMLHttpRequest();
-xhr.open("POST", yourUrlMolly, true);
-xhr.setRequestHeader('Content-Type', 'application/json');
-xhr.send(JSON.stringify({
-    value: value
-}));
+xhr.open("POST", "https://bmcresearch.utm.utoronto.ca/molly/index.php", true);
+//xhr.setRequestHeader('Content-Type', 'application/json');
+// xhr.send(JSON.stringify({
+//     value: value
+// }));
+xhr.send();
 }
 
 };
