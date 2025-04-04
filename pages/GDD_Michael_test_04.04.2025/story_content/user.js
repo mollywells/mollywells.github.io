@@ -13,7 +13,7 @@ window.Script1 = function()
 var xhr = new XMLHttpRequest();
 
 // Configure it: GET-request for the URL /data
-xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?module_name=landing_page&layer_name=NA', true);
+xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=landing_page&layer_name=NA', true);
 
 // Set up a function to handle the response
 xhr.onload = function() {
@@ -44,7 +44,7 @@ window.Script2 = function()
 var xhr = new XMLHttpRequest();
 
 // Configure it: GET-request for the URL /data
-xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?module_name=intro_page&layer_name=NA', true);
+xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=intro_page&layer_name=NA', true);
 
 // Set up a function to handle the response
 xhr.onload = function() {
@@ -75,7 +75,7 @@ window.Script3 = function()
 var xhr = new XMLHttpRequest();
 
 // Configure it: GET-request for the URL /data
-xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?module_name=extra_page&layer_name=NA', true);
+xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=extra_page&layer_name=NA', true);
 
 // Set up a function to handle the response
 xhr.onload = function() {
@@ -106,7 +106,7 @@ window.Script4 = function()
 var xhr = new XMLHttpRequest();
 
 // Configure it: GET-request for the URL /data
-xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?module_name=video_page&layer_name=NA', true);
+xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=video_page&layer_name=NA', true);
 
 // Set up a function to handle the response
 xhr.onload = function() {
@@ -137,7 +137,7 @@ window.Script5 = function()
 var xhr = new XMLHttpRequest();
 
 // Configure it: GET-request for the URL /data
-xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?module_name=MPA_page&layer_name=NA', true);
+xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=MPA_page&layer_name=NA', true);
 
 // Set up a function to handle the response
 xhr.onload = function() {
@@ -168,7 +168,7 @@ window.Script6 = function()
 var xhr = new XMLHttpRequest();
 
 // Configure it: GET-request for the URL /data
-xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?module_name=surface_page&layer_name=NA', true);
+xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=surface_page&layer_name=NA', true);
 
 // Set up a function to handle the response
 xhr.onload = function() {
@@ -199,7 +199,7 @@ window.Script7 = function()
 var xhr = new XMLHttpRequest();
 
 // Configure it: GET-request for the URL /data
-xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?module_name=tutorial_page&layer_name=NA', true);
+xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=tutorial_page&layer_name=NA', true);
 
 // Set up a function to handle the response
 xhr.onload = function() {
@@ -230,7 +230,7 @@ window.Script8 = function()
 var xhr = new XMLHttpRequest();
 
 // Configure it: GET-request for the URL /data
-xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?module_name=submarine_page&layer_name=plankton_inset', true);
+xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=submarine_page&layer_name=plankton_inset', true);
 
 // Set up a function to handle the response
 xhr.onload = function() {
@@ -261,7 +261,7 @@ window.Script9 = function()
 var xhr = new XMLHttpRequest();
 
 // Configure it: GET-request for the URL /data
-xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?module_name=submarine_page&layer_name=map_inset', true);
+xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=submarine_page&layer_name=map_inset', true);
 
 // Set up a function to handle the response
 xhr.onload = function() {
