@@ -36,6 +36,8 @@ xhr.onerror = function() {
 xhr.send();
 }
 
+};
+
 window.Script2 = function()
 {
   console.log("hello world!")
