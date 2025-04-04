@@ -5,6 +5,7 @@ var object = player.object;
 var addToTimeline = player.addToTimeline;
 var setVar = player.SetVar;
 var getVar = player.GetVar;
+
 window.Script1 = function()
 {
   console.log("hello world!")
@@ -35,6 +36,8 @@ xhr.onerror = function() {
 // Send the request
 xhr.send();
 }
+
+};
 
 window.Script2 = function()
 {
