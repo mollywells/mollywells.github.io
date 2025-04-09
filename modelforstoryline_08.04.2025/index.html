@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>&lt;model-viewer&gt; template</title>
+    <meta charset="utf-8">
+    <meta name="description" content="&lt;model-viewer&gt; template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" href="./styles.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <!-- <model-viewer> HTML element -->
+    <model-viewer src="map_animated_onlyboat.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="2" autoplay exposure="0.5">
+      <button class="Hotspot" slot="hotspot-2" data-surface="2 0 131 137 76 0.469 0.258 0.273" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Zone 1: limited research, no fishing</div>
+      </button><button class="Hotspot" slot="hotspot-3" data-surface="3 0 204 277 201 0.060 0.555 0.385" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Zone 2: research and limited fishing</div>
+      </button><button class="Hotspot" slot="hotspot-4" data-surface="4 0 79 85 88 0.285 0.180 0.535" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Zone 3: research and fishing</div>
+      </button>
+    </model-viewer>  
+    <!-- Loads <model-viewer> for browsers: -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+  </body>
+</html>
