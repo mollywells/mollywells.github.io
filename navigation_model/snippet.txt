@@ -1,5 +1,0 @@
-<model-viewer src="map_navigation (1).glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" autoplay>
-    <button class="Hotspot" slot="hotspot-2" data-surface="1 0 6 15 12 0.498 0.491 0.011" data-visibility-attribute="visible">
-        <div class="HotspotAnnotation">Current depth: 0m</div>
-    </button>
-</model-viewer>
