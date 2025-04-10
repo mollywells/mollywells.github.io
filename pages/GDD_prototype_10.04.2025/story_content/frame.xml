@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="true">
             <options>
-              <option name="title_text" value="GDD_Michael_test_10.04.2025" />
+              <option name="title_text" value="GDD_Prototype_10.04.2025" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -1568,6 +1568,13 @@
             <slidelink slideid="_player.6OQESqt2gHq.5WO8sEqdTBR" displaytext="Surface" expand="false" type="slide" />
             <slidelink slideid="_player.6OQESqt2gHq.6PawmcrrzM6" displaytext="Tutorial" expand="false" type="slide" />
             <slidelink slideid="_player.6OQESqt2gHq.5ajg9vzhNqu" displaytext="end slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6OQESqt2gHq.5gULtJoXPND" displaytext="Landing page" expand="false" type="slide" />
+            <slidelink slideid="_player.6OQESqt2gHq.60Yp0HUv5I8" displaytext="From the following list, please select the tasks you successfully completed on your task list printout." expand="false" type="slide" />
+            <slidelink slideid="_player.6OQESqt2gHq.5bcwaOYLnq9" displaytext="Are there any tasks from that you did not complete, or had trouble completing? If so, which tasks, and what made them difficult?" expand="false" type="slide" />
+            <slidelink slideid="_player.6OQESqt2gHq.6rj0EKG7Lc1" displaytext="Does the Gully Deep Dive feel relevant to the Oceans 11 course content? If yes, how does it connect to what you have learned in class?" expand="false" type="slide" />
+            <slidelink slideid="_player.6OQESqt2gHq.6V8T1fHFlC8" displaytext="What adjectives would you use to describe the Gully Deep Dive? For example, imagine you are describing the feeling of the Gully Deep Dive to a friend." expand="false" type="slide" />
+            <slidelink slideid="_player.6OQESqt2gHq.5ddmCBHzGWh" displaytext="The Gully Deep Dive is being developed for the Oceans 11 classroom to help teach concepts from Module 2: Marine Biome. Do you have any feedback on how to improve the Gully Deep Dive to help it achieve this purpose?" expand="false" type="slide" />
+            <slidelink slideid="_player.6OQESqt2gHq.65W7712L355" displaytext="(Optional) Please leave any additional comments or feedback here. Thank you for your feedback and input, which will be directly used to improve the Gully Deep Dive for future students. Your help is very appreciated!" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
