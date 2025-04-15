@@ -2,50 +2,35 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "6EXA6cQcWKb":
+      case "5oiqs3eqMTx":
         Script1();
         break;
-      case "69Zo5gd3pLK":
+      case "6ZF5IbBiPe5":
         Script2();
         break;
-      case "6DW14b8H85W":
+      case "6RBK1unxNqX":
         Script3();
         break;
-      case "6TADkIpFsnX":
+      case "6SA2yC8edmT":
         Script4();
         break;
-      case "5aS0z2bY3wY":
+      case "6RyepGNGC5t":
         Script5();
         break;
-      case "6qkclwP8llJ":
+      case "63QUgJQBXYh":
         Script6();
         break;
-      case "6nHDxj8CW2E":
+      case "5xfveGghUQP":
         Script7();
         break;
-      case "6K73wNyxg7S":
+      case "5dXDQ2JTKvK":
         Script8();
         break;
-      case "5oxmXxKb2cn":
+      case "6iIlFJfOgcS":
         Script9();
         break;
-      case "6Tqu0rD5VqU":
+      case "5dePzTFujJb":
         Script10();
-        break;
-      case "66I3kQpck5W":
-        Script11();
-        break;
-      case "5rE3A8RM3uP":
-        Script12();
-        break;
-      case "6Ozsxeb3tMS":
-        Script13();
-        break;
-      case "6ED0kwkseE8":
-        Script14();
-        break;
-      case "5pJuPIhMPUe":
-        Script15();
         break;
   }
 }
@@ -57,4 +42,23 @@ var object = player.object;
 var addToTimeline = player.addToTimeline;
 var setVar = player.SetVar;
 var getVar = player.GetVar;
+window.Script1 = function()
+{
+  const target = object('5VjE2ujpCN5');
+const duration = 750;
+const easing = 'ease-out';
+const id = '5bnLWkohDO1';
+const pulseAmount = 0.07;
+player.addForTriggers(
+id,
+target.animate([
+{ scale: '1' }, { scale: `${1 + pulseAmount}` },
+{ scale: '1' }, { scale: `${1 + pulseAmount}` },
+{ scale: '1' }
+],
+  { fill: 'forwards', duration, easing }
+)
+);
+}
+
 };
