@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="true">
             <options>
-              <option name="title_text" value="GDD_Prototype_14.04.2025" />
+              <option name="title_text" value="Gully Deep Dive (Prototype)" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -1560,15 +1560,15 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.6OQESqt2gHq" displaytext="GDD Wireframes Sample" expand="true" type="slide">
+        <slidelink slideid="_player.6OQESqt2gHq" displaytext="Gully Deep Dive (Prototype)" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.6OQESqt2gHq.5sy6lnDshma" displaytext="Intro 4" expand="false" type="slide" />
             <slidelink slideid="_player.6OQESqt2gHq.5z8UnmY5osL" displaytext="Introduction" expand="false" type="slide" />
             <slidelink slideid="_player.6OQESqt2gHq.6HUE1awcqkG" displaytext="MPA Zones" expand="false" type="slide" />
             <slidelink slideid="_player.6OQESqt2gHq.5WO8sEqdTBR" displaytext="Surface" expand="false" type="slide" />
-            <slidelink slideid="_player.6OQESqt2gHq.6PawmcrrzM6" displaytext="Simulation: Tutorial" expand="false" type="slide" />
-            <slidelink slideid="_player.6OQESqt2gHq.66Ajm72lOXg" displaytext="Simulation: 0m" expand="false" type="slide" />
-            <slidelink slideid="_player.6OQESqt2gHq.5nNsTgZhO5L" displaytext="End of Simulation" expand="false" type="slide" />
+            <slidelink slideid="_player.6OQESqt2gHq.66Ajm72lOXg" displaytext="Submarine Tutorial" expand="false" type="slide" />
+            <slidelink slideid="_player.6OQESqt2gHq.5aWTQjR78ss" displaytext="Submarine: 0m" expand="false" type="slide" />
+            <slidelink slideid="_player.6OQESqt2gHq.5nNsTgZhO5L" displaytext="End of Prototype" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
@@ -1578,20 +1578,12 @@
   <transcript_data />
   <glossary_data>
     <terms>
-      <term title="Bioluminescence">Light produced by living creatures (bio = living, luminescence = light)</term>
       <term title="Continental shelf">The part of the continent between the shelf and edge. Usually less than 200 meters deep.</term>
-      <term title="Diel Vertical Migration">When animals swim to the surface at night to feed, then go back down to deeper waters during the day.</term>
-      <term title="Ecosystem engineers">Organisms that change their environment, sometimes creating shelters, which other animals may live in or use to hide from predators.</term>
-      <term title="Filter feeder">Animals that get food by eating tiny nutrients and small animals carried by the water's current.</term>
       <term title="Food web">A diagram showing how different animals in an ecosystem are connected through food chains.</term>
-      <term title="Hydrophone">TBD</term>
       <term title="Marine Protected Area (MPA)">An area of the ocean that is legally protected and managed to keep nature safe.</term>
       <term title="Photosynthesis">A process that living creatures use to turn sunlight and carbon dioxide into energy and oxygen.</term>
       <term title="Phytoplankton">Tiny creatures that use sunlight to make their food. They are an important part of ocean food webs.</term>
-      <term title="Polyp">A small animal with a ring of tentacles that capture food from the water column. Corals can be made of many polyps which form a colony.</term>
       <term title="Salinity">The amount of salt in the water.</term>
-      <term title="Thermocline">A layer of water where the temperature quickly changes between warm shallow waters and colder deep waters. The thermocline can act like a barrier that prevents water from mixing.</term>
-      <term title="Water mass">A layer of water with a specific origin. It is different from the water around it because of unique temperature, salinity, and oxygen levels.</term>
     </terms>
   </glossary_data>
 </bwFrame>

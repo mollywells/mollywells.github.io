@@ -5,7 +5,7 @@ var object = player.object;
 var addToTimeline = player.addToTimeline;
 var setVar = player.SetVar;
 var getVar = player.GetVar;
-window.Script2 = function()
+window.Script7 = function()
 {
   console.log("hello world!")
 
@@ -36,7 +36,7 @@ xhr.onerror = function() {
 xhr.send();
 }
 
-window.Script3 = function()
+window.Script8 = function()
 {
   console.log("hello world!")
 
@@ -67,7 +67,7 @@ xhr.onerror = function() {
 xhr.send();
 }
 
-window.Script4 = function()
+window.Script9 = function()
 {
   console.log("hello world!")
 
@@ -98,7 +98,7 @@ xhr.onerror = function() {
 xhr.send();
 }
 
-window.Script5 = function()
+window.Script10 = function()
 {
   console.log("hello world!")
 
@@ -129,7 +129,7 @@ xhr.onerror = function() {
 xhr.send();
 }
 
-window.Script6 = function()
+window.Script11 = function()
 {
   console.log("hello world!")
 
@@ -160,7 +160,7 @@ xhr.onerror = function() {
 xhr.send();
 }
 
-window.Script7 = function()
+window.Script12 = function()
 {
   console.log("hello world!")
 
@@ -191,7 +191,7 @@ xhr.onerror = function() {
 xhr.send();
 }
 
-window.Script8 = function()
+window.Script13 = function()
 {
   console.log("hello world!")
 
@@ -222,7 +222,7 @@ xhr.onerror = function() {
 xhr.send();
 }
 
-window.Script9 = function()
+window.Script14 = function()
 {
   console.log("hello world!")
 
@@ -253,7 +253,7 @@ xhr.onerror = function() {
 xhr.send();
 }
 
-window.Script10 = function()
+window.Script15 = function()
 {
   console.log("hello world!")
 
