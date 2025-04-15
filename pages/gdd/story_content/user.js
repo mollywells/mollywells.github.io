@@ -75,7 +75,7 @@ window.Script9 = function()
 var xhr = new XMLHttpRequest();
 
 // Configure it: GET-request for the URL /data
-xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=MPAZones', true);
+xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=LandingPage', true);
 
 // Set up a function to handle the response
 xhr.onload = function() {
@@ -106,7 +106,7 @@ window.Script10 = function()
 var xhr = new XMLHttpRequest();
 
 // Configure it: GET-request for the URL /data
-xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=DiveIn', true);
+xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=Introduction', true);
 
 // Set up a function to handle the response
 xhr.onload = function() {
@@ -137,7 +137,7 @@ window.Script11 = function()
 var xhr = new XMLHttpRequest();
 
 // Configure it: GET-request for the URL /data
-xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=Tutorial', true);
+xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=MPAZones', true);
 
 // Set up a function to handle the response
 xhr.onload = function() {
@@ -168,7 +168,7 @@ window.Script12 = function()
 var xhr = new XMLHttpRequest();
 
 // Configure it: GET-request for the URL /data
-xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=Simulation&layername=inset', true);
+xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=DiveIn', true);
 
 // Set up a function to handle the response
 xhr.onload = function() {
@@ -199,7 +199,7 @@ window.Script13 = function()
 var xhr = new XMLHttpRequest();
 
 // Configure it: GET-request for the URL /data
-xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=Simulation&layername=maps', true);
+xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=Tutorial', true);
 
 // Set up a function to handle the response
 xhr.onload = function() {
@@ -230,7 +230,7 @@ window.Script14 = function()
 var xhr = new XMLHttpRequest();
 
 // Configure it: GET-request for the URL /data
-xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=Simulation&layername=cockpit', true);
+xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=Simulation&layername=inset', true);
 
 // Set up a function to handle the response
 xhr.onload = function() {
@@ -261,7 +261,69 @@ window.Script15 = function()
 var xhr = new XMLHttpRequest();
 
 // Configure it: GET-request for the URL /data
-xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=LandingPage', true);
+xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=Simulation&layername=maps', true);
+
+// Set up a function to handle the response
+xhr.onload = function() {
+    if (xhr.status >= 200 && xhr.status < 300) {
+        // Parse the JSON response
+        //var data = JSON.parse(xhr.responseText);
+        // Do something with the data
+        console.log(data);
+    } else {
+        console.error('Request failed with status:', xhr.status);
+    }
+};
+
+// Set up a function to handle errors
+xhr.onerror = function() {
+    console.error('Request failed');
+};
+
+// Send the request
+xhr.send();
+}
+
+window.Script16 = function()
+{
+  console.log("hello world!")
+
+// Create a new XMLHttpRequest object
+var xhr = new XMLHttpRequest();
+
+// Configure it: GET-request for the URL /data
+xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=Simulation&layername=cockpit', true);
+
+// Set up a function to handle the response
+xhr.onload = function() {
+    if (xhr.status >= 200 && xhr.status < 300) {
+        // Parse the JSON response
+        //var data = JSON.parse(xhr.responseText);
+        // Do something with the data
+        console.log(data);
+    } else {
+        console.error('Request failed with status:', xhr.status);
+    }
+};
+
+// Set up a function to handle errors
+xhr.onerror = function() {
+    console.error('Request failed');
+};
+
+// Send the request
+xhr.send();
+}
+
+window.Script17 = function()
+{
+  console.log("hello world!")
+
+// Create a new XMLHttpRequest object
+var xhr = new XMLHttpRequest();
+
+// Configure it: GET-request for the URL /data
+xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=Exitpage', true);
 
 // Set up a function to handle the response
 xhr.onload = function() {
