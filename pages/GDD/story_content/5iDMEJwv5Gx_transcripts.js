@@ -1,0 +1,5 @@
+
+(function() {
+    const data = {"transcripts":[{"name":"captions","cues":[{"start":1056,"text":"The Gully is an underwater canyon on the continental shelf,"},{"start":3840,"text":"off the coast of Nova Scotia, Canada."},{"start":6528,"text":"Many animals like whales and corals call the Gully home."},{"start":9376,"text":"In fact, it has the most coral species in Atlantic Canada!"},{"start":12896,"text":"This is because the canyon's shape and location helps bring nutrients from shallow waters into the deep sea. "},{"start":19084,"text":"The Gully was first protected to help the endangered Northern Bottlenose Whale."},{"start":22828,"text":"It has been a Marine Protected Area since 2004. "},{"start":26132,"text":"L et's dive in together to see what makes the Gully so special!"}]}]};
+    window.globalLoadJsAsset('story_content/5iDMEJwv5Gx_transcripts.js', JSON.stringify(data));
+})();
