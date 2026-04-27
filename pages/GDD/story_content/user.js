@@ -13,7 +13,7 @@ var showPointer = player.showPointer;
 var hidePointer = player.hidePointer;
 var slideWidth = player.slideWidth;
 var slideHeight = player.slideHeight;
-window.Script164 = function()
+window.Script163 = function()
 {
   console.log("hello world!")
 
@@ -44,7 +44,7 @@ xhr.onerror = function() {
 xhr.send();
 }
 
-window.Script165 = function()
+window.Script164 = function()
 {
   console.log("hello world!")
 
@@ -75,7 +75,7 @@ xhr.onerror = function() {
 xhr.send();
 }
 
-window.Script166 = function()
+window.Script165 = function()
 {
   console.log("hello world!")
 
@@ -106,7 +106,7 @@ xhr.onerror = function() {
 xhr.send();
 }
 
-window.Script167 = function()
+window.Script166 = function()
 {
   console.log("hello world!")
 
@@ -137,7 +137,7 @@ xhr.onerror = function() {
 xhr.send();
 }
 
-window.Script168 = function()
+window.Script167 = function()
 {
   console.log("hello world!")
 
@@ -168,7 +168,7 @@ xhr.onerror = function() {
 xhr.send();
 }
 
-window.Script169 = function()
+window.Script168 = function()
 {
   console.log("hello world!")
 
@@ -177,6 +177,37 @@ var xhr = new XMLHttpRequest();
 
 // Configure it: GET-request for the URL /data
 xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=simulation&layer_name=cockpit', true);
+
+// Set up a function to handle the response
+xhr.onload = function() {
+    if (xhr.status >= 200 && xhr.status < 300) {
+        // Parse the JSON response
+        //var data = JSON.parse(xhr.responseText);
+        // Do something with the data
+        console.log(data);
+    } else {
+        console.error('Request failed with status:', xhr.status);
+    }
+};
+
+// Set up a function to handle errors
+xhr.onerror = function() {
+    console.error('Request failed');
+};
+
+// Send the request
+xhr.send();
+}
+
+window.Script169 = function()
+{
+  console.log("hello world!")
+
+// Create a new XMLHttpRequest object
+var xhr = new XMLHttpRequest();
+
+// Configure it: GET-request for the URL /data
+xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=simulation&layer_name=inset', true);
 
 // Set up a function to handle the response
 xhr.onload = function() {
@@ -269,7 +300,7 @@ window.Script172 = function()
 var xhr = new XMLHttpRequest();
 
 // Configure it: GET-request for the URL /data
-xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=simulation&layer_name=inset', true);
+xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=simulation&layer_name=controlcentre', true);
 
 // Set up a function to handle the response
 xhr.onload = function() {
@@ -300,7 +331,7 @@ window.Script173 = function()
 var xhr = new XMLHttpRequest();
 
 // Configure it: GET-request for the URL /data
-xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=simulation&layer_name=controlcentre', true);
+xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=simulation&layer_name=cockpit', true);
 
 // Set up a function to handle the response
 xhr.onload = function() {
@@ -331,7 +362,7 @@ window.Script174 = function()
 var xhr = new XMLHttpRequest();
 
 // Configure it: GET-request for the URL /data
-xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=simulation&layer_name=cockpit', true);
+xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=simulation&layer_name=inset', true);
 
 // Set up a function to handle the response
 xhr.onload = function() {
@@ -362,7 +393,7 @@ window.Script175 = function()
 var xhr = new XMLHttpRequest();
 
 // Configure it: GET-request for the URL /data
-xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=simulation&layer_name=inset', true);
+xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=simulation&layer_name=cockpit', true);
 
 // Set up a function to handle the response
 xhr.onload = function() {
@@ -393,7 +424,7 @@ window.Script176 = function()
 var xhr = new XMLHttpRequest();
 
 // Configure it: GET-request for the URL /data
-xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=simulation&layer_name=cockpit', true);
+xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=simulation&layer_name=inset', true);
 
 // Set up a function to handle the response
 xhr.onload = function() {
@@ -424,7 +455,7 @@ window.Script177 = function()
 var xhr = new XMLHttpRequest();
 
 // Configure it: GET-request for the URL /data
-xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=simulation&layer_name=inset', true);
+xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=simulation&layer_name=controlcentre', true);
 
 // Set up a function to handle the response
 xhr.onload = function() {
@@ -455,37 +486,6 @@ window.Script178 = function()
 var xhr = new XMLHttpRequest();
 
 // Configure it: GET-request for the URL /data
-xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=simulation&layer_name=controlcentre', true);
-
-// Set up a function to handle the response
-xhr.onload = function() {
-    if (xhr.status >= 200 && xhr.status < 300) {
-        // Parse the JSON response
-        //var data = JSON.parse(xhr.responseText);
-        // Do something with the data
-        console.log(data);
-    } else {
-        console.error('Request failed with status:', xhr.status);
-    }
-};
-
-// Set up a function to handle errors
-xhr.onerror = function() {
-    console.error('Request failed');
-};
-
-// Send the request
-xhr.send();
-}
-
-window.Script179 = function()
-{
-  console.log("hello world!")
-
-// Create a new XMLHttpRequest object
-var xhr = new XMLHttpRequest();
-
-// Configure it: GET-request for the URL /data
 xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=simulation&layer_name=cockpit', true);
 
 // Set up a function to handle the response
@@ -509,7 +509,7 @@ xhr.onerror = function() {
 xhr.send();
 }
 
-window.Script180 = function()
+window.Script179 = function()
 {
   //let videos = document.getElementsByTagName('video');
 
@@ -545,6 +545,37 @@ if (isHidden == false) {
 }
 //video.style.visibility = "hidden";
 console.log(video);
+}
+
+window.Script180 = function()
+{
+  console.log("hello world!")
+
+// Create a new XMLHttpRequest object
+var xhr = new XMLHttpRequest();
+
+// Configure it: GET-request for the URL /data
+xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=simulation&layer_name=controlcentre', true);
+
+// Set up a function to handle the response
+xhr.onload = function() {
+    if (xhr.status >= 200 && xhr.status < 300) {
+        // Parse the JSON response
+        //var data = JSON.parse(xhr.responseText);
+        // Do something with the data
+        console.log(data);
+    } else {
+        console.error('Request failed with status:', xhr.status);
+    }
+};
+
+// Set up a function to handle errors
+xhr.onerror = function() {
+    console.error('Request failed');
+};
+
+// Send the request
+xhr.send();
 }
 
 window.Script181 = function()
@@ -586,7 +617,7 @@ window.Script182 = function()
 var xhr = new XMLHttpRequest();
 
 // Configure it: GET-request for the URL /data
-xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=simulation&layer_name=controlcentre', true);
+xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=simulation&layer_name=inset', true);
 
 // Set up a function to handle the response
 xhr.onload = function() {
@@ -617,7 +648,7 @@ window.Script183 = function()
 var xhr = new XMLHttpRequest();
 
 // Configure it: GET-request for the URL /data
-xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=simulation&layer_name=inset', true);
+xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=simulation&layer_name=controlcentre', true);
 
 // Set up a function to handle the response
 xhr.onload = function() {
@@ -648,7 +679,7 @@ window.Script184 = function()
 var xhr = new XMLHttpRequest();
 
 // Configure it: GET-request for the URL /data
-xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=simulation&layer_name=inset', true);
+xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=simulation&layer_name=controlcentre', true);
 
 // Set up a function to handle the response
 xhr.onload = function() {
@@ -679,7 +710,7 @@ window.Script185 = function()
 var xhr = new XMLHttpRequest();
 
 // Configure it: GET-request for the URL /data
-xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=simulation&layer_name=controlcentre', true);
+xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=simulation&layer_name=inset', true);
 
 // Set up a function to handle the response
 xhr.onload = function() {
@@ -710,7 +741,7 @@ window.Script186 = function()
 var xhr = new XMLHttpRequest();
 
 // Configure it: GET-request for the URL /data
-xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=simulation&layer_name=controlcentre', true);
+xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=simulation&layer_name=inset', true);
 
 // Set up a function to handle the response
 xhr.onload = function() {
@@ -889,68 +920,6 @@ xhr.send();
 }
 
 window.Script192 = function()
-{
-  console.log("hello world!")
-
-// Create a new XMLHttpRequest object
-var xhr = new XMLHttpRequest();
-
-// Configure it: GET-request for the URL /data
-xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=simulation&layer_name=inset', true);
-
-// Set up a function to handle the response
-xhr.onload = function() {
-    if (xhr.status >= 200 && xhr.status < 300) {
-        // Parse the JSON response
-        //var data = JSON.parse(xhr.responseText);
-        // Do something with the data
-        console.log(data);
-    } else {
-        console.error('Request failed with status:', xhr.status);
-    }
-};
-
-// Set up a function to handle errors
-xhr.onerror = function() {
-    console.error('Request failed');
-};
-
-// Send the request
-xhr.send();
-}
-
-window.Script193 = function()
-{
-  console.log("hello world!")
-
-// Create a new XMLHttpRequest object
-var xhr = new XMLHttpRequest();
-
-// Configure it: GET-request for the URL /data
-xhr.open('GET', 'https://bmcresearch.utm.utoronto.ca/molly/index.php?slide_name=simulation&layer_name=inset', true);
-
-// Set up a function to handle the response
-xhr.onload = function() {
-    if (xhr.status >= 200 && xhr.status < 300) {
-        // Parse the JSON response
-        //var data = JSON.parse(xhr.responseText);
-        // Do something with the data
-        console.log(data);
-    } else {
-        console.error('Request failed with status:', xhr.status);
-    }
-};
-
-// Set up a function to handle errors
-xhr.onerror = function() {
-    console.error('Request failed');
-};
-
-// Send the request
-xhr.send();
-}
-
-window.Script194 = function()
 {
   console.log("hello world!")
 

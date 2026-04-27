@@ -1,0 +1,5 @@
+
+(function() {
+    const data = {"transcripts":[{"name":"captions","cues":[{"start":696,"text":"Le Gully est un canyon sous-marin situé sur le plateau continental,"},{"start":4920,"text":"au large de la côte de la Nouvelle-Écosse, au Canada."},{"start":8616,"text":"De nombreux animaux, comme les baleines et les coraux, habitent dans le Gully."},{"start":13300,"text":"En fait, on y trouve le plus grand nombre d'espèces de coraux au Canada atlantique !"},{"start":19292,"text":"C’est parce que la forme et l’emplacement du canyon aident à transporter les nutriments de la surface juste qu’aux eaux profondes."},{"start":28468,"text":"Le Gully a d’abord été protégé pour aider la baleine à bec commune, une espèce en voie de disparition."},{"start":35176,"text":"Il est une zone de protection marine depuis 2004."},{"start":39212,"text":"Plongeons ensemble pour découvrir ce qui rend le Gully si spécial !"}]}]};
+    window.globalLoadJsAsset('story_content/5iDMEJwv5Gx_transcripts.js', JSON.stringify(data));
+})();
